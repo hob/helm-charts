@@ -13,6 +13,8 @@ spec:
   ports:
   - name: headless
     port: 1883
-    containerPort: 1883
+    targetPort: 1883
+  externalIPs:
+  - 192.168.86.32
   selector:
     app: {{ template "fullname" . }}
