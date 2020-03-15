@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  mosquitto:
+  - apiVersion: v1
+    appVersion: 1.4.15
+    created: "2020-03-15T04:47:19.104196758Z"
+    description: Mosquitto
+    digest: 4af08f089eca8bb344f6625b7073075bb576d83d4df9121e6a465ae4ef7e2cf8
+    keywords:
+    - mosquitto
+    maintainers:
+    - name: hobi
+    name: mosquitto
+    sources:
+    - https://github.com/eclipse/mosquitto
+    urls:
+    - https://hob.github.io/helm-charts/mosquitto-0.1.6.tgz
+    version: 0.1.6
+generated: "2020-03-15T04:47:19.101927011Z"
